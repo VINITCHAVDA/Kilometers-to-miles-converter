@@ -1,0 +1,53 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  position: absolute;
+  top: 18%;
+  width: 5vw;
+  left: 48%;
+  border: 5px solid black;
+}
+
+.main {
+  border: 5px solid black;
+  height: 40vh;
+  width: 40vw;
+  padding-top: 5%;
+  cursor: pointer;
+}
+
+.secand {
+  padding-top: 10%;
+  font-size: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#kilometeters {
+  width: 13.2vw;
+  border-radius: 3px 0px;
+}
+
+#btn {
+  width: 10vw;
+  padding: 1%;
+  border-radius: 50px;
+  margin-top: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+}
+
+#p1 {
+  background-color: rgba(0, 0, 0, 0.108);
+  font-size: 150%;
+}
